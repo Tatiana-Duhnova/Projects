@@ -1,0 +1,94 @@
+@import "mixins";
+
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background: black;
+}
+
+.body {
+  clear: both;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 115.99em !important;
+  height: 65.625em;
+  margin: 0 auto;
+
+    &__history {
+      background: url("../images/twenty-one-pilots-altpress-cover-1.jpg") no-repeat;
+      .width_height();
+      transition: all .2s;
+    }
+
+    &__history:hover {
+      transform: scale(1.02);
+      filter: brightness(60%);
+    }
+
+    &__music {
+      background: url("../images/blurryface.jpg") no-repeat;
+      .width_height();
+      transition: all .2s;
+    }
+
+    &__music:hover {
+      transform: scale(1.02);
+      filter: brightness(60%);
+    }
+
+    &__video {
+      background: url("../images/ec49e8a85222f2dbcd893e1d528593e7.jpg") no-repeat;
+      .width_height();
+      transition: all .2s;
+    }
+
+    &__video:hover {
+      transform: scale(1.02);
+      filter: brightness(60%);
+    }
+}
+
+.history {
+  .position_font-size();
+  top: 37%;
+  left: 36%;
+  width: 90px;
+}
+
+.music {
+  .position_font-size();
+  top: 39%;
+  left: 38%;
+  width: 90px;
+}
+
+.video {
+  .position_font-size();
+  top: 38%;
+  left: 43%;
+  width: 90px;
+}
+
+.text {
+  color: @DarkMagenta;
+  opacity: 1;
+  filter: brightness(100%);
+}
+
+.text:hover {
+  color: @DarkRed;
+}
+
+a {
+  text-decoration: @DarkMagenta;
+}
+
+a:hover {
+  color: @DarkRed;
+}

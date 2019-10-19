@@ -1,0 +1,85 @@
+@import "menu";
+
+@import "body";
+
+@import "variables";
+
+@import "../styles/commons/buttons.css";
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+}
+
+.logo {
+  background: @Black;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: -15px;
+}
+
+.image {
+  width: 30em;
+  height: 150px;
+}
+
+@font-face {
+  font-family: icomoon;
+  src: url("../fonts/social/fonts/icomoon.woff") format("woff");
+}
+
+i {
+  font-family: icomoon !important;
+  display: inline;
+  font-style: normal;
+  font-size: 45px;
+  color: @White;
+  padding-right: 10px;
+}
+
+.icon-list2:before {
+  content: "\e9bb";
+  display: none;
+}
+
+.icon-mail4:before {
+  content: "\ea86";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-telegram:before {
+  content: "\ea95";
+}
+
+.icon-vk:before {
+  content: "\ea98";
+}
+
+.icons {
+  position: absolute;
+  top: 25%;
+  left: 66%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background: @Black;
+  clear: both;
+  width: 116em;
+  margin: 0 auto !important;
+
+    p {
+      color: @White;
+      text-align: center;
+    }
+}
+
+@import "../media/body";

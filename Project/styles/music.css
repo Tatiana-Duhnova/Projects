@@ -1,0 +1,117 @@
+@import "../styles/animation.css";
+
+@import "../styles/slider_music.css";
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+@import "../media/mus.css";
+
+* {
+    box-sizing: border-box;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+.back p {
+    color: MistyRose;
+    font-size: 18px;
+    margin-bottom: -14px;
+}
+
+.fon {
+    background: url("../images/9CwaMKQVM1Q.jpg") fixed repeat-y;
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    opacity: .8;
+    filter: brightness(40%);
+}
+
+.head h1 {
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    color: white;
+    font-size: 55px;
+}
+
+.head h1 span {
+    color: orange;
+}
+
+.head h2 {
+    position: absolute;
+    top: 48%;
+    left: 24%;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    color: #666;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.flex_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 62%;
+    left: 10%;
+}
+
+#wrapper h1 {
+    color: #444;
+    font-size: 2.2em;
+    padding: 14px 2px 12px;
+    margin: 0;
+}
+
+#wrapper p {
+    color: #888;
+    font-size: 20px;
+}
+
+#wrapper {
+    width: 480px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: decimal-leading-zero inside;
+    color: #ccc;
+    width: 460px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+ul li {
+    position: relative;
+    margin: 0;
+    padding: 9px 2px 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+ul li a {
+    display: block;
+    text-indent: -3.3ex;
+    padding: 0 0 0 20px;
+}
+
+li.playing {
+    color: #aaa;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+audio {
+    outline: none;
+}
