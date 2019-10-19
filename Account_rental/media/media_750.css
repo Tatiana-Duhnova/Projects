@@ -1,0 +1,11 @@
+@media all and (max-width: 750px){
+    .header__info-menu {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .content__payment-variants {
+        width: 400px !important;
+    }
+}

@@ -1,0 +1,49 @@
+@media screen and (max-device-width: 375px) {
+    .form_item {
+        width: 350px !important;
+    }
+
+    .form__communicate {
+        width: 350px !important;
+        height: 83px !important;
+    }
+
+    .items_on {
+        width: 335px !important;
+    }
+
+    .form_item-social {
+        width: 350px !important;
+    }
+
+    .content__form-btn,
+    .footer__form-btn {
+        width: 350px !important;
+        margin: 0 0 40px 11px !important;
+    }
+
+    .content__account-change_explanation {
+        margin: 0 !important;
+        width: 340px !important;
+    }
+
+    .content__conditions-first,
+    .content__conditions-second,
+    .content__conditions-third,
+    .content__rental-procedure_first-item,
+    .content__rental-procedure_second-item,
+    .content__rental-procedure_third-item {
+        width: 65% !important;
+    }
+
+    .content__reasons-money,
+    .content__reasons-lock,
+    .content__reasons-not_spam {
+        width: 50% !important;
+    }
+
+    .content__reviews-first_review_text,
+    .content__reviews-second_review_text {
+        max-width: 342px !important;
+    }
+}

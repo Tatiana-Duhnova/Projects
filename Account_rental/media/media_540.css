@@ -1,0 +1,5 @@
+@media all and (max-width: 540px) {
+    .content__reviews {
+        padding-left: 25px !important;
+    }
+}

@@ -1,0 +1,502 @@
+@import "../media/media_890.css";
+@import "../media/media_750.css";
+@import "../media/media_620.css";
+@import "../media/media_540.css";
+@import "../media/media_425.css";
+@import "../media/media_375.css";
+@import "../media/media_320.css";
+
+/* Common styles */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Calibri', sans-serif;
+    transition: .5s ease-in-out;
+}
+/* End common styles */
+
+/* Header styles */
+.header {
+    background: #3a5897;
+}
+
+.header__info {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.header__info-menu {
+    border-bottom: 4px solid #528097;
+    padding: 20px 0;
+}
+
+.header__info-menu a {
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    margin: 0 46px;
+}
+
+.header__info-menu a:hover {
+    color: white;
+}
+
+.header__info-central_block {
+    margin: 0 0 -70px;
+}
+
+.header__info-central_block p {
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 58px;
+    color: #ffffff;
+}
+
+.header__info-central_block img {
+    width: 53%;
+    float: right;
+}
+
+.header__info-text {
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* End header styles */
+
+/* Body content and footer styles */
+i {
+    color: white;
+}
+
+.content__form,
+.footer__form {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.content__form-sign_up,
+.footer__form-sign_up {
+    border-bottom: 4px solid darkgray;
+    margin-bottom: 40px;
+    padding-bottom: 70px;
+}
+
+.connection {
+    float: left;
+    height: 360px;
+}
+
+.connection p {
+    display: inline-block;
+    width: 390px;
+    font-size: 36px;
+    vertical-align: top;
+    text-align: center;
+    color: #3a5897;
+}
+
+.form_item {
+    width: 420px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #3a5897;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    outline: none;
+}
+
+.form_item-social {
+    width: 420px;
+    height: 50px;
+    margin: -20px 0 0;
+    border: 1px solid #3a5897;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    outline: none;
+}
+
+.form_item::-webkit-input-placeholder,
+.form_item-social::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form__communicate {
+    width: 420px;
+    height: 50px;
+    border: 1px solid #3a5897;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    float: right;
+    margin: 0 60px 50px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.form__communicate span {
+    color: #3a5897;
+    font-size: 30px;
+    padding: 17px;
+}
+
+#angle-down,
+#angle-down2 {
+    color: #3a5897;
+    font-size: 20px;
+}
+
+.items {
+    display: none;
+}
+
+.items_block {
+    display: block;
+}
+
+.items_on span {
+    color: #3a5897;
+    font-size: 30px;
+    display: block;
+}
+
+.items_on span:hover {
+    background: lightblue;
+}
+
+.items_on {
+    display: block;
+    z-index: 5;
+    position: absolute;
+    width: 405px;
+    height: 150px;
+    border: 1px solid #3a5897;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    background: white;
+}
+
+.button {
+    width: 370px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    transform: translateY(-5px) scale(1.1);
+}
+
+.content__form-btn,
+.footer__form-btn {
+    width: 364px;
+    height: 85px;
+    border: 1px solid #3a5897;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    background: #3a5897;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+.content__form-btn span,
+.footer__form-btn span {
+    padding-right: 15px;
+}
+
+.content__form-btn i,
+.footer__form-btn i {
+    padding-top: 10px;
+}
+
+.content__reasons,
+.content__reviews-background {
+    background: Azure;
+    text-align: center;
+}
+
+.content__reasons-blocks {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.content__reasons-text {
+    font-size: 43px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+.content__reasons-text span {
+    color: #3a5897;
+}
+
+.content__reasons-money,
+.content__reasons-lock {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 19px;
+    border-right: 2px solid darkgray;
+    text-align: center;
+}
+.content__reasons-money {
+    height: 201px;
+}
+
+.content__reasons-not_spam {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 19px;
+    text-align: center;
+}
+
+.content__reasons-money img {
+    width: 118px;
+    height: 73px;
+}
+
+.content__reasons-lock img {
+    width: 75px;
+    height: 73px;
+}
+
+.content__reasons-not_spam img {
+    width: 100px;
+    height: 73px;
+}
+
+.content__account-change {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.content__account-change h2,
+.content__conditions h2,
+.content__payment h2,
+.content__security-first_block h2,
+.content__reviews h2 {
+    font-size: 43px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 0;
+    color: #3a5897;
+}
+
+.content__account-change_explanation {
+    margin-bottom: 95px;
+}
+
+.content__account-change_explanation img {
+    float: left;
+    margin-right: 30px;
+    max-width: 100%;
+}
+
+.content__account-change_explanation p {
+    font-size: 24px;
+}
+
+#dice-one,
+#dice-two,
+#dice-three {
+    color: #3a5897;
+    font-size: 20px;
+}
+
+.content__conditions {
+    max-width: 870px;
+    margin: 0 auto;
+    border-top: 4px solid darkgray;
+}
+
+.content__conditions-first,
+.content__conditions-second,
+.content__conditions-third {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.content__conditions-first,
+.content__conditions-second {
+    border-right: 2px solid darkgray;
+}
+
+.content__conditions-first {
+    height: 148px;
+    margin-left: 50px;
+}
+
+.content__conditions-third {
+    margin-bottom: 60px;
+}
+
+.content__rental {
+    background: Azure;
+}
+
+.content__rental-procedure {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.content__rental-procedure h2 {
+    font-size: 43px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+h1 {
+    color: #3a5897;
+    font-size: 40px;
+}
+
+.content__rental-procedure_first-item,
+.content__rental-procedure_second-item,
+.content__rental-procedure_third-item {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.content__payment {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.content__payment-variants {
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.content__payment-variants img {
+    margin: 0 20px 40px;
+}
+
+.visa {
+    width: 92px;
+    height: 65px;
+}
+
+.mastercard {
+    width: 98px;
+    height: 61px;
+}
+
+.privatbank {
+    width: 98px;
+    height: 61px;
+}
+
+.monobank {
+    width: 98px;
+    height: 61px;
+}
+
+.mts {
+    width: 130px;
+    height: 60px;
+}
+
+.beeline {
+    width: 141px;
+    height: 75px;
+}
+
+.megafon {
+    width: 199px;
+    height: 85px;
+}
+
+.tele2 {
+    width: 102px;
+    height: 60px;
+}
+
+.content__security {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.content__security-first_block,
+.content__security-second_block {
+    border-top: 4px solid darkgray;
+}
+
+.content__security-first_block img {
+    float: right;
+    width: 25%;
+    margin-top: -155px;
+}
+
+.content__security-second_block {
+    padding: 60px 0;
+}
+
+.content__security-first_block p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.content__security-second_block img {
+    width: 45%;
+    float: left;
+}
+
+.content__security-second_block p {
+    font-size: 24px;
+}
+
+.content__reviews {
+    max-width: 870px;
+    margin: 0 auto;
+    padding-left: 85px;
+    font-style: italic;
+}
+
+.content__reviews-first_review,
+.content__reviews-second_review {
+    margin-bottom: 45px;
+}
+
+.content__reviews-second_review {
+    padding-bottom: 80px;
+}
+
+.content__reviews-first_review img,
+.content__reviews-second_review img {
+    float: left;
+}
+
+.content__reviews-first_review_text,
+.content__reviews-second_review_text {
+    border: 1px solid wheat;
+    border-radius: 210px;
+    background: wheat;
+    width: 500px;
+    margin-left: 235px;
+}
+
+.content__reviews-first_review_text span,
+.content__reviews-second_review_text span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3a5897;
+}
+/* End body content an footer styles */

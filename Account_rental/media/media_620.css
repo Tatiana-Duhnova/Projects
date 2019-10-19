@@ -1,0 +1,10 @@
+@media all and (max-width: 620px) {
+    .content__reasons-money {
+        height: 235px !important;
+    }
+
+    .content__reviews-first_review_text,
+    .content__reviews-second_review_text {
+        width: 430px !important;
+    }
+}

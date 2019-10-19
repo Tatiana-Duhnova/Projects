@@ -1,0 +1,62 @@
+@media screen and (max-width: 320px) {
+    .form_item,
+    .form__communicate,
+    .form_item-social {
+        width: 305px !important;
+    }
+
+    .form__communicate {
+        height: 83px !important;
+    }
+
+    .items_on {
+        width: 293px !important;
+    }
+
+    .content__form-btn,
+    .footer__form-btn {
+        width: 305px !important;
+        height: 105px !important;
+    }
+
+    .content__conditions-first,
+    .content__conditions-second,
+    .content__conditions-third,
+    .content__rental-procedure_first-item,
+    .content__rental-procedure_second-item,
+    .content__rental-procedure_third-item {
+        width: 65% !important;
+    }
+
+    .content__reasons-money,
+    .content__reasons-lock,
+    .content__reasons-not_spam {
+        width: 50% !important;
+    }
+
+    .content__account-change_explanation img {
+        max-width: 80% !important;
+    }
+
+    .content__payment-variants {
+        width: 320px !important;
+    }
+
+    .content__reviews-first_review,
+    .content__reviews-second_review {
+        margin: 0 0 45px -21px !important;
+    }
+
+    .content__reviews-first_review_text,
+    .content__reviews-second_review_text {
+        height: 130px;
+        max-width: 315px !important;
+    }
+
+    .content__reviews-first_review img,
+    .content__reviews-second_review img {
+        float: none !important;
+    }
+
+
+}

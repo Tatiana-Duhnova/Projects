@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>Account rental</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header">
+            <div class="header__info">
+                <div class="header__info-menu">
+                    <a href="./#reasons">Зачем сдавать аккаунт в аренду</a>
+                    <a href="./#procedure">Процедура аренды</a>
+                    <a href="./#security">Безопасность</a>
+                </div>
+
+                <div class="header__info-central_block">
+                    <p>
+                        Зарабатывай по <b>3000 гривен</b> в месяц!
+                    </p>
+
+                    <img src="../images/header.png" alt="Facebook">
+                </div>
+
+                <p class="header__info-text">
+                    Сдай свой аккаунт facebook <b>в аренду</b>!
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Body content -->
+    <div class="content">
+        <!-- Content form -->
+        <div class="content__form">
+            <div class="content__form-sign_up">
+                <form method="post">
+                    <div class="connection">
+                        <p>
+                            Заполните форму и с Вами свяжется менеджер
+                        </p>
+                    </div>
+
+                    <div class="form">
+                        <input class="form_item" type="text" placeholder="Ваш e-mail" name="mail">
+                        <input class="form_item" type="text" placeholder="Ваш номер телефона" name="phone">
+                        <input class="form_item" type="text" placeholder="Ссылка на Ваш аккаунт" name="account">
+
+                        <div class="form__communicate">
+                            <span>
+                                Удобный способ для связи
+                            </span>
+
+                            <i class="fas fa-angle-down" id="angle-down"></i>
+
+                            <div class="items">
+                                <span class="items_first">Телеграм</span>
+                                <span class="items_social_network">Социальная сеть</span>
+                            </div>
+                        </div>
+
+                        <div class="social-input"></div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="button">
+                <button class="content__form-btn" type="submit">
+                    <span>Сдать аккаунт</span>
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+        <!-- End content form -->
+
+        <!-- Content reasons -->
+        <div id="reasons"></div>
+
+        <div class="content__reasons">
+            <div class="content__reasons-blocks">
+                <p class="content__reasons-text">
+                    3 причины сдать свой аккаунт <span>facebook</span>
+                </p>
+
+                <div class="content__reasons-money">
+                    <img src="../images/money.png" alt="Money">
+
+                    <p>
+                        Вы можете получать <b>3000</b> гривен в месяц <b>легко</b> и <b>без усилий</b>
+                    </p>
+                </div>
+
+                <div class="content__reasons-lock">
+                    <img src="../images/lock.png" alt="Lock">
+
+                    <p>
+                        <b>Никто не будет менять Ваш пароль</b> - нам нужен только рекламный кабинет, который привязан к Вашей странице
+                    </p>
+                </div>
+
+                <div class="content__reasons-not_spam">
+                    <img src="../images/spam.png" alt="Not spam">
+
+                    <p>
+                        <b>Никаких постов от Вашего имени и спама</b> - Ваши друзья вообще не догадаются, что Вы зарабатываете на своей страничке
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End content reasons -->
+
+        <!-- Content account change -->
+        <div class="content__account-change">
+            <h2>Зачем нам нужен Ваш аккаунт?</h2>
+
+            <div class="content__account-change_explanation">
+                <img src="../images/screen.jpg" alt="Screen">
+
+                <p>
+                    Нам нужно ставить как можно больше рекламы в facebook, но социальная сеть ограничивает количество баннеров, которые можно установить с одной страницы. Да, можно было бы создать кучу аккаунтов с нуля, но facebook запрещает ставить рекламу с только что созданных страниц. Поэтому мы просто возьмем в аренду уже готовый аккаунт.
+                </p>
+            </div>
+        </div>
+        <!-- End content account change -->
+
+        <!-- Content conditions -->
+        <div class="content__conditions">
+            <h2>Вы можете сдать свой аккаунт, если:</h2>
+
+            <div class="content__conditions-first">
+                <i class="fas fa-dice-one" id="dice-one"></i>
+
+                <span>Аккаунту уже больше года</span>
+            </div>
+
+            <div class="content__conditions-second">
+                <i class="fas fa-dice-two" id="dice-two"></i>
+
+                <span>Аккаунт верифицирован, то есть в нем подтвержден телефон, электронная почта, заполненный профиль и фото</span>
+            </div>
+
+            <div class="content__conditions-third">
+                <i class="fas fa-dice-three" id="dice-three"></i>
+
+                <span>У Вас есть незаблокированный рекламный кабинет (если Вы им никогда не пользовались, значит он точно заблокирован)</span>
+            </div>
+        </div>
+        <!-- End content conditions -->
+
+        <!-- Content rental procedure -->
+        <div class="content__rental">
+            <div class="content__rental-procedure" id="procedure">
+                <h2>Как происходит процедура аренды?</h2>
+
+                <div class="content__rental-procedure_first-item">
+                    <h1>1.</h1>
+
+                    <p>Вы оставляете заявку на сайте</p>
+                </div>
+
+                <div class="content__rental-procedure_second-item">
+                    <h1>2.</h1>
+
+                    <p>С Вами связывается менеджер, уточняет куда Вам лучше отправить деньги</p>
+                </div>
+
+                <div class="content__rental-procedure_third-item">
+                    <h1>3.</h1>
+
+                    <p>Если Ваш аккаунт подходит, мы перечисляем Вам деньги, а Вы на время даете свои логин и пароль</p>
+                </div>
+            </div>
+        </div>
+        <!-- End content rental procedure -->
+
+        <!-- Content payment -->
+        <div class="content__payment">
+            <h2>Как перечисляем деньги за аренду?</h2>
+
+            <div class="content__payment-variants">
+                <img class="visa" src="../images/visa.png" alt="Visa">
+                <img class="mastercard" src="../images/mastercard.png" alt="MasterCard">
+                <img class="privatbank" src="../images/privatbank.png" alt="PrivatBank">
+                <img class="monobank" src="../images/monobank.png" alt="Monobank">
+                <img class="mts" src="../images/mts.png" alt="MTS">
+                <img class="beeline" src="../images/Beeline.png" alt="Beeline">
+                <img class="megafon" src="../images/megafon.png" alt="MegaFon">
+                <img class="tele2" src="../images/tele2.png" alt="Tele2">
+            </div>
+        </div>
+        <!-- End content payment -->
+
+        <!-- Content security -->
+        <div class="content__security" id="security">
+            <div class="content__security-first_block">
+                <h2>Это безопасно?</h2>
+
+                <img src="../images/man.png" alt="Man">
+
+                <p>Да! Мы не будем менять Ваш логин и пароль. Также Вам на почту будут приходить уведомления из рекламного кабинета, и Вы увидите все наши действия.</p>
+
+                <h2>Заработайте таким способом до 52 800 грн в год!</h2>
+            </div>
+
+            <div class="content__security-second_block">
+                <img src="../images/fb-network.jpg" alt="Facebook network">
+
+                <p>
+                    Ведь нет ничего плохого в том, чтобы сдать свою квартиру на время. Сдать свой аккаунт facebook - это почти то же самое.
+                </p>
+
+                <p>
+                    <b>Простая математика</b>: в первый месяц Вы получаете <b>300 грн</b> за сдачу аккаунта, за второй месяц по <b>2500 грн</b>, за третий месяц <b>5000 грн</b>, далее за каждый месяц по <b>5000 грн</b>, что за год составит <b>52 800 грн</b>. Это выгоднее чем любой вклад в любом банке!
+                </p>
+            </div>
+        </div>
+        <!-- End content security -->
+
+        <!-- Content reviews -->
+        <div class="content__reviews-background">
+            <div class="content__reviews">
+                <h2>Сомневаетесь? <br> Прочитайте отзывы:</h2>
+
+                <div class="content__reviews-first_review">
+                    <img src="../images/user1.png" alt="First user">
+
+                    <div class="content__reviews-first_review_text">
+                        <p>
+                            <span>Александр Данько</span>
+
+                            <br>Я уже 3 месяца сдаю свой аккаунт. А что? Он и так без дела был создан. Теперь хоть деньги с него получаю.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content__reviews-second_review">
+                    <img src="../images/user2.png" alt="Second user">
+
+                    <div class="content__reviews-second_review_text">
+                        <p>
+                            <span>Ирина Семенюк</span>
+                            
+                            <br>Я сдала свой аккаунт неделю назад. Деньги перечислили сразу, на почту приходят ответы о действиях в моем аккаунте. Такой способ заработка мне по душе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End content reviews -->
+    </div>
+    <!-- End body content -->
+
+    <!-- Footer -->
+    <div class="footer__form">
+        <div class="footer__form-sign_up">
+            <form method="post">
+                <div class="connection">
+                    <p>
+                        Заполните форму и с Вами свяжется менеджер
+                    </p>
+                </div>
+
+                <div class="form">
+                    <input class="form_item" type="text" placeholder="Ваш e-mail" name="mail">
+                    <input class="form_item" type="text" placeholder="Ваш номер телефона" name="phone">
+                    <input class="form_item" type="text" placeholder="Ссылка на Ваш аккаунт" name="account">
+
+                    <div class="form__communicate">
+                            <span>
+                                Удобный способ для связи
+                            </span>
+
+                        <i class="fas fa-angle-down" id="angle-down2"></i>
+
+                        <div class="items">
+                            <span class="items_first">Телеграм</span>
+                            <span class="items_social_network">Социальная сеть</span>
+                        </div>
+                    </div>
+
+                    <div class="social-input"></div>
+                </div>
+            </form>
+        </div>
+
+        <div class="button">
+            <button class="footer__form-btn" type="submit">
+                <span>Сдать аккаунт</span>
+                <i class="fas fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+    <!-- End footer -->
+
+    <!-- Script -->
+    <script src="../script/main.js"></script>
+    <!-- End script -->
+</body>
+</html>
