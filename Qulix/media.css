@@ -1,0 +1,215 @@
+@media (max-width: 960px) {
+    .section1 {
+        width: 200px !important;
+    }
+
+    header {
+        padding: 10px 15px 15px 15px !important;
+    }
+
+    .navigation {
+        margin-left: 15px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .settings span {
+        margin-right: 15px !important;
+    }
+
+    .settings {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .settings i {
+        margin-right: 25px !important;
+    }
+}
+
+@media (max-width: 660px) {
+    .search2 {
+        display: inline-block !important;
+    }
+
+    .box1 a, .box2 a, .box3 a, .box4 a, .box5 a {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .section1 {
+        display: none !important;
+    }
+
+    .section2 {
+        width: 100% !important;
+    }
+
+    #open {
+        display: none !important;
+    }
+
+    #open2 {
+        display: block !important;
+    }
+
+    .city, .icons {
+        display: none !important;
+    }
+
+    .user > span {
+        display: none !important;
+    }
+
+    .logo img:first-child {
+        display: none !important;
+    }
+
+    header {
+        padding: 20px 10px !important;
+    }
+
+    .whitelogo {
+        display: block !important;
+    }
+
+    .adaptivphoto {
+        display: block !important;
+    }
+
+    .header > i {
+        cursor: pointer !important;
+        display: block !important;
+        color: white !important;
+        font-size: 50px !important;
+    }
+
+    #open2 {
+        margin-right: 10px !important;
+        transform: scale(2) !important;
+    }
+
+    .header > span {
+        display: inline-block !important;
+        color: white !important;
+        font: 40px Arial !important;
+        align-self: center !important;
+    }
+
+    .header {
+        justify-content: space-around !important;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .title {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .title > i {
+        align-self: flex-end !important;
+        margin-bottom: 3px !important;
+    }
+
+    .newform {
+        height: 58.5px !important;
+    }
+
+    .newform form {
+        display: flex !important;
+    }
+
+    .field2 {
+        display: none !important;
+    }
+
+    .search2 label i {
+        position: static !important;
+    }
+
+    .field2 {
+        padding: 15px 33px 15px 15px !important;
+    }
+
+    .search2 label i {
+        display: none !important;
+    }
+
+    #open4 {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .whitelogo {
+        width: 60px !important;
+        height: 40px !important;
+        align-self: center !important;
+    }
+
+    .header > span {
+        font-size: 20px !important;
+    }
+
+    .adaptivphoto {
+        transform: scale(.7) !important;
+    }
+
+    .title > h1 {
+        padding: 30px 10px 0 5px !important;
+        font-size: 20px !important;
+    }
+
+    .title > i {
+        margin-bottom: -3px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .field2 {
+        padding: 15px 0 15px 5px !important;
+    }
+
+    .usertext span:nth-child(2) {
+        padding: 3px 5px !important;
+        margin-left: 5px !important;
+    }
+
+    .username {
+        display: block !important;
+    }
+
+    .info > p {
+        font-size: 12px !important;
+    }
+
+    .settings span {
+        display: none !important;
+    }
+
+    #plus {
+        display: block !important;
+    }
+
+    .newform form {
+        padding: 6px 0 6px 5px !important;
+    }
+
+    #open3, #close3 {
+        transform: scale(.5) !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .header > span {
+        display: none !important;
+    }
+
+    .divf1 a {
+        margin-right: 10px !important;
+    }
+}
